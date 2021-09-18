@@ -32,9 +32,16 @@ git commit -m "docs(proj-b): Create README"
 git push
 ```
 
+See:
+
+- https://gitlab.sikalabs.com/examples/subtree/mono
+
 ## Push Subtrees
 
 ```
 git subtree push --prefix proj-a  --annotate "[generated]" proj-a master
 git subtree push --prefix proj-b  --annotate "[generated]" proj-b master
 ```
+
+- https://gitlab.sikalabs.com/examples/subtree/proj-a
+- https://gitlab.sikalabs.com/examples/subtree/proj-b
