@@ -39,8 +39,8 @@ See:
 ## Push Subtrees
 
 ```
-git subtree push --prefix proj-a  --annotate "[generated]" proj-a master
-git subtree push --prefix proj-b  --annotate "[generated]" proj-b master
+git subtree push --prefix proj-a  --annotate "[generated] " proj-a master
+git subtree push --prefix proj-b  --annotate "[generated] " proj-b master
 ```
 
 - https://gitlab.sikalabs.com/examples/subtree/proj-a
